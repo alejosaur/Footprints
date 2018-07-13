@@ -6,6 +6,7 @@ public class MoveBall : MonoBehaviour {
 
     public float deltaMovement = 5f;
     public Rigidbody rb;
+    private bool collided;
 
 	// Use this for initialization
 	void Start () {
@@ -13,12 +14,17 @@ public class MoveBall : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void Update () 
+    {   
+        if (Input.GetKey(KeyCode.W) && collided)
+        {
+            rb.AddForce(new Vector3(0f,0.03f,0f) * 100f, ForceMode.Impulse);	
+        }
         /*else if (Input.GetKey(KeyCode.S))
         {
             transform.Translate(Vector3.back * deltaMovement * Time.deltaTime);
         }*/
-        if (Input.GetKey(KeyCode.A))
+        else if (Input.GetKey(KeyCode.A))
         {
             transform.Translate(Vector3.left * deltaMovement * Time.deltaTime);
         }
@@ -28,12 +34,12 @@ public class MoveBall : MonoBehaviour {
         }
 	}
 
-    void OnCollisionStay(Collision collisionInfo)
-    {
-        Debug.Log("Tocando");
-		if (Input.GetKey(KeyCode.W))
-        {
-            rb.AddForce(new Vector3(0f,0.03f,0f) * 100f, ForceMode.Impulse);	
-        }
+    public void OnCollisionEnter(){
+        collided =true;
     }
+    
+    public void OnCollisionExit(){
+        collided =false;
+    }
+
 }
