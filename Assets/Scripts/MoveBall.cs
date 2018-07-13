@@ -30,6 +30,7 @@ public class MoveBall : MonoBehaviour {
 
     void OnCollisionStay(Collision collisionInfo)
     {
+        Debug.Log("Tocando");
 		if (Input.GetKey(KeyCode.W))
         {
             rb.AddForce(new Vector3(0f,0.03f,0f) * 100f, ForceMode.Impulse);	
