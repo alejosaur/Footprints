@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class BallScript : MonoBehaviour {
 
     public float deltaMovement = 5f;
-    public Rigidbody rb;
+    private Rigidbody rb;
     private bool collided;
     private int count;
     public Text PuntajeText;
@@ -22,7 +22,7 @@ public class BallScript : MonoBehaviour {
     {   
         if (Input.GetKey(KeyCode.W) && collided)
         {
-            rb.AddForce(new Vector3(0f,0.03f,0f) * 100f, ForceMode.Impulse);	
+            rb.AddForce(new Vector3(0f,0.03f,0f) * 300f, ForceMode.Impulse);	
         }
         /*else if (Input.GetKey(KeyCode.S))
         {
