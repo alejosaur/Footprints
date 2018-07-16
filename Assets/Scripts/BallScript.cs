@@ -30,21 +30,50 @@ public class BallScript : MonoBehaviour {
         }*/
         else if (Input.GetKey(KeyCode.A))
         {
-            transform.Translate(Vector3.left * deltaMovement * Time.deltaTime);
+            if(collided)
+            {
+                rb.velocity=(Vector3.left * deltaMovement * Time.deltaTime);
+            }
         }
+        
         else if (Input.GetKey(KeyCode.D))
         {
-            transform.Translate(Vector3.right * deltaMovement * Time.deltaTime);
+            if(collided)
+            {
+                rb.velocity=(Vector3.right * deltaMovement * Time.deltaTime);
+            }
+        }
+
+        else if (Input.GetKeyUp(KeyCode.D) || Input.GetKeyUp(KeyCode.A))
+        {
+            if(collided)
+            {
+                stop();
+            }
         }
 	}
 
-    public void OnCollisionEnter(){
-        //Debug.Log(other.gameObject);
-        collided =true;
+    public void OnCollisionEnter(Collision other){
+        if (other.gameObject.CompareTag ("Floor")){
+            collided =true;
+            Debug.Log("Uncollided");
+            stop();
+        }
     }
     
-    public void OnCollisionExit(){
-        collided =false;
+    public void OnCollisionExit(Collision other){
+        Debug.Log(other.gameObject.tag);
+        if (other.gameObject.CompareTag ("Floor")){
+            collided =false;
+            if (Input.GetKey(KeyCode.D))
+            {
+                rb.AddForce(Vector3.right * deltaMovement * Time.deltaTime);
+            }
+            else if (Input.GetKey(KeyCode.A))
+            {
+                rb.AddForce(Vector3.left * deltaMovement * Time.deltaTime);
+            }
+        }
     }
 
     public void OnTriggerEnter(Collider other){
@@ -58,6 +87,12 @@ public class BallScript : MonoBehaviour {
 
     void SetCountText(){
         PuntajeText.text = "Puntaje: " + count.ToString() + " puntos";
+    }
+
+    private void stop(){
+            rb.velocity=(Vector3.right * 0 * Time.deltaTime);
+            rb.angularVelocity=(Vector3.right * 0 * Time.deltaTime);
+            rb.rotation = Quaternion.identity;
     }
 
 }

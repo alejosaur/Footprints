@@ -55,6 +55,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\BallScript.cs" />
      <Compile Include="Assets\Scripts\MoveCam.cs" />
+     <Compile Include="Assets\Scripts\SceneManage.cs" />
      <None Include="Assets\TGU Skybox Pack\Readme.txt" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>C:/Users/Alejo/Documents/Footprints/Footprints/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
