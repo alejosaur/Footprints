@@ -25,14 +25,11 @@ public class BallScript : MonoBehaviour {
         {
             rb.AddForce(new Vector3(0f,0.03f,0f) * 300f, ForceMode.Impulse);	
         }
-        
-
 	}
 
     public void OnCollisionEnter(Collision other){
         if (other.gameObject.CompareTag ("Floor")){
             collided =true;
-            Debug.Log("Uncollided");
         }
     }
     
@@ -40,14 +37,6 @@ public class BallScript : MonoBehaviour {
         Debug.Log(other.gameObject.tag);
         if (other.gameObject.CompareTag ("Floor")){
             collided =false;
-            if (Input.GetKey(KeyCode.D))
-            {
-                rb.AddForce(Vector3.right * deltaMovement * Time.deltaTime);
-            }
-            else if (Input.GetKey(KeyCode.A))
-            {
-                rb.AddForce(Vector3.left * deltaMovement * Time.deltaTime);
-            }
         }
     }
 
