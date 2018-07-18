@@ -15,49 +15,24 @@ public class BallScript : MonoBehaviour {
 	void Start () {
 		rb = GetComponent<Rigidbody>();
         count = 0;
+        rb.velocity=(Vector3.right * deltaMovement * Time.deltaTime);
 	}
 	
 	// Update is called once per frame
 	void Update () 
     {   
-        if (Input.GetKey(KeyCode.W) && collided)
+        if (Input.GetMouseButtonDown(0) && collided)
         {
             rb.AddForce(new Vector3(0f,0.03f,0f) * 300f, ForceMode.Impulse);	
         }
-        /*else if (Input.GetKey(KeyCode.S))
-        {
-            transform.Translate(Vector3.back * deltaMovement * Time.deltaTime);
-        }*/
-        else if (Input.GetKey(KeyCode.A))
-        {
-            if(collided)
-            {
-                rb.velocity=(Vector3.left * deltaMovement * Time.deltaTime);
-            }
-        }
         
-        else if (Input.GetKey(KeyCode.D))
-        {
-            if(collided)
-            {
-                rb.velocity=(Vector3.right * deltaMovement * Time.deltaTime);
-            }
-        }
 
-        else if (Input.GetKeyUp(KeyCode.D) || Input.GetKeyUp(KeyCode.A))
-        {
-            if(collided)
-            {
-                stop();
-            }
-        }
 	}
 
     public void OnCollisionEnter(Collision other){
         if (other.gameObject.CompareTag ("Floor")){
             collided =true;
             Debug.Log("Uncollided");
-            stop();
         }
     }
     

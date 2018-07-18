@@ -18,4 +18,8 @@ public class SceneManage : MonoBehaviour {
 	public void CargarEscena(string nombreNivel){
 		SceneManager.LoadScene(nombreNivel);
 	}
+
+	public void quit(){
+		Application.Quit();
+	}
 }

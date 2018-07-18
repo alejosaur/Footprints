@@ -1,9 +1,10 @@
 WindowsStandalone
 PlayerPath?
-C:/Users/Alejo/Documents/Footprints/Footprints/Footprints.exe
+C:/Users/Alejo/Documents/Footprints/Footprints.exe
 SceneListBegin?
 Assets/Scenes/Main Menu.unity
 Assets/Scenes/Level1.unity
+Assets/Scenes/Options.unity
 SceneListEnd?
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 cf455f7a806648c6ed4c7d3e3f8a0e03 UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
