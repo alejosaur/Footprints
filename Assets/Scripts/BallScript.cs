@@ -21,24 +21,7 @@ public class BallScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
     {   
-        if (Input.GetMouseButtonDown(0) && collided)
-        {
-            rb.AddForce(new Vector3(0f,0.03f,0f) * 300f, ForceMode.Impulse);	
-        }
 	}
-
-    public void OnCollisionEnter(Collision other){
-        if (other.gameObject.CompareTag ("Floor")){
-            collided =true;
-        }
-    }
-    
-    public void OnCollisionExit(Collision other){
-        Debug.Log(other.gameObject.tag);
-        if (other.gameObject.CompareTag ("Floor")){
-            collided =false;
-        }
-    }
 
     public void OnTriggerEnter(Collider other){
         if (other.gameObject.CompareTag ("Coins"))
