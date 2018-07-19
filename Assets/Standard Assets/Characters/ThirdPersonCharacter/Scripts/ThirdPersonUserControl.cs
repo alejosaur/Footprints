@@ -31,22 +31,28 @@ namespace UnityStandardAssets.Characters.ThirdPerson
             m_Character = GetComponent<ThirdPersonCharacter>();
         }
 
+        private float h = 0;
+        private float v = 0;
 
         private void Update()
         {
             if (!m_Jump)
             {
-                m_Jump = Input.GetMouseButtonDown(0);
+                m_Jump = Input.GetMouseButtonDown(0) && (h==1);
+            }
+            if(h==0)
+            {
+                if(Input.GetMouseButtonDown(0))
+                {
+                    h=1;
+                }
             }
         }
-
 
         // Fixed update is called in sync with physics
         private void FixedUpdate()
         {
             // read inputs
-            float h = 1;
-            float v = 0;
             bool crouch = Input.GetKey(KeyCode.C);
 
             // calculate move direction to pass to character

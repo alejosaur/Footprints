@@ -53,8 +53,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\BallScript.cs" />
      <Compile Include="Assets\Scripts\CloudsMove.cs" />
+     <Compile Include="Assets\Scripts\MisifuScript.cs" />
      <Compile Include="Assets\Scripts\MoveCam.cs" />
      <Compile Include="Assets\Scripts\Orientation.cs" />
      <Compile Include="Assets\Scripts\SceneManage.cs" />
