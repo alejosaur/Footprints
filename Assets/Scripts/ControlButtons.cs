@@ -24,9 +24,9 @@ public class ControlButtons : MonoBehaviour {
 		misifu.GetComponent<ThirdPersonUserControl>().jump();
 	}
 
-	public void crouch()
+	public void crouch(bool act)
 	{
-		misifu.GetComponent<ThirdPersonUserControl>().crouch();
+		misifu.GetComponent<ThirdPersonUserControl>().crouch(act);
 	}
 
 	// Update is called once per frame

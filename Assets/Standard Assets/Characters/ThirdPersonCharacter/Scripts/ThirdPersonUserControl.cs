@@ -53,11 +53,11 @@ namespace UnityStandardAssets.Characters.ThirdPerson
             }
         }
 
-        public void crouch()
+        public void crouch(bool act)
         {
             if(pause==1)
             {
-                m_crouch = !m_crouch && (h==1);
+                m_crouch = act && (h==1);
             }
         }
 

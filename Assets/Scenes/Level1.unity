@@ -166,6 +166,7 @@ GameObject:
   - component: {fileID: 104452792}
   - component: {fileID: 104452791}
   - component: {fileID: 104452790}
+  - component: {fileID: 104452794}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -253,6 +254,17 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!225 &104452794
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 104452789}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &104640826
 GameObject:
   m_ObjectHideFlags: 0
@@ -403,6 +415,7 @@ GameObject:
   - component: {fileID: 467743766}
   - component: {fileID: 467743765}
   - component: {fileID: 467743764}
+  - component: {fileID: 467743767}
   m_Layer: 5
   m_Name: JumpButton
   m_TagString: Untagged
@@ -417,8 +430,8 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 467743762}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 71}
-  m_LocalScale: {x: 2.4028273, y: 2.4028263, z: 2.4028263}
+  m_LocalPosition: {x: 0, y: 0, z: -2}
+  m_LocalScale: {x: 5.773231, y: 39.660145, z: 2.4028263}
   m_Children:
   - {fileID: 456487492}
   m_Father: {fileID: 104452793}
@@ -426,7 +439,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 735, y: -466}
+  m_AnchoredPosition: {x: 504, y: 11}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &467743764
@@ -514,6 +527,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 467743762}
+--- !u!225 &467743767
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 467743762}
+  m_Enabled: 1
+  m_Alpha: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1884,6 +1908,7 @@ GameObject:
   - component: {fileID: 1867880640}
   - component: {fileID: 1867880639}
   - component: {fileID: 1867880642}
+  - component: {fileID: 1867880643}
   m_Layer: 5
   m_Name: CrouchButton
   m_TagString: Untagged
@@ -1898,8 +1923,8 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1867880637}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 70.9998}
-  m_LocalScale: {x: 2.4029999, y: 2.403, z: 2.403}
+  m_LocalPosition: {x: 0, y: 0, z: 11}
+  m_LocalScale: {x: 6.5449524, y: 34.62349, z: 2.403}
   m_Children:
   - {fileID: 1231465452}
   m_Father: {fileID: 104452793}
@@ -1907,7 +1932,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -740, y: -466.00015}
+  m_AnchoredPosition: {x: -468, y: -71.002}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1867880639
@@ -2002,14 +2027,14 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 63773525}
           m_MethodName: crouch
-          m_Mode: 1
+          m_Mode: 6
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
-            m_BoolArgument: 0
+            m_BoolArgument: 1
           m_CallState: 2
       m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
         Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
@@ -2019,7 +2044,7 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 63773525}
           m_MethodName: crouch
-          m_Mode: 1
+          m_Mode: 6
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2031,6 +2056,17 @@ MonoBehaviour:
       m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
         Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   delegates: []
+--- !u!225 &1867880643
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1867880637}
+  m_Enabled: 1
+  m_Alpha: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!4 &1973245506 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4641349011957870, guid: 985c01a709fa6954bb911d61e3c6c982,
