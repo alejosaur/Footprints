@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace UnityStandardAssets.Characters.ThirdPerson
 {
@@ -11,7 +12,8 @@ namespace UnityStandardAssets.Characters.ThirdPerson
         private Vector3 m_CamForward;             // The current forward direction of the camera
         private Vector3 m_Move;
         private bool m_Jump;                      // the world-relative desired move direction, calculated from the camForward and user input.
-
+        private bool m_crouch;
+        public Text StartText;
         
         private void Start()
         {
@@ -33,18 +35,43 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 
         private float h = 0;
         private float v = 0;
+        private float pause = 1;
+
+        public void pauseGame(){
+            if(pause==1){
+                pause=0;
+            }else{
+                pause=1;
+            }
+        }
+
+        public void jump()
+        {
+            if(pause==1)
+            {
+                m_Jump = true && (h==1);
+            }
+        }
+
+        public void crouch()
+        {
+            if(pause==1)
+            {
+                m_crouch = !m_crouch && (h==1);
+            }
+        }
 
         private void Update()
         {
-            if (!m_Jump)
+            if(pause==1)
             {
-                m_Jump = Input.GetMouseButtonDown(0) && (h==1);
-            }
-            if(h==0)
-            {
-                if(Input.GetMouseButtonDown(0))
+                if(h==0)
                 {
-                    h=1;
+                    if(Input.GetMouseButtonDown(0))
+                    {
+                        Destroy(StartText.gameObject);
+                        h=1;
+                    }
                 }
             }
         }
@@ -53,14 +80,13 @@ namespace UnityStandardAssets.Characters.ThirdPerson
         private void FixedUpdate()
         {
             // read inputs
-            bool crouch = Input.GetKey(KeyCode.C);
-
+            
             // calculate move direction to pass to character
             if (m_Cam != null)
             {
                 // calculate camera relative direction to move:
                 m_CamForward = Vector3.Scale(m_Cam.forward, new Vector3(1, 0, 1)).normalized;
-                m_Move = v*m_CamForward + h*m_Cam.right;
+                m_Move = pause*v*m_CamForward + pause*h*m_Cam.right;
             }
             else
             {
@@ -73,7 +99,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 #endif
 
             // pass all parameters to the character control script
-            m_Character.Move(m_Move, crouch, m_Jump);
+            m_Character.Move(m_Move, m_crouch, m_Jump);
             m_Jump = false;
         }
     }
