@@ -42,6 +42,13 @@ public class MisifuScript : MonoBehaviour {
         }
     }
 
+    public void OnCollisionEnter(Collision other){
+        if (other.collider.CompareTag ("Traps"))
+        {
+		    SceneManager.LoadScene("Game Over");
+        }
+    }
+
     void SetCountText(){
         PuntajeText.text = "Puntaje: " + count.ToString() + " puntos";
     }

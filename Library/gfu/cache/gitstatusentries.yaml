@@ -12,6 +12,542 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-07-21T22:43:15.238-05:00
-  initializedAtString: 2018-07-20T14:10:36.408-05:00
-  entries: []
+  lastUpdatedAtString: 2018-07-22T12:29:39.522-05:00
+  initializedAtString: 2018-07-22T11:24:15.472-05:00
+  entries:
+  - path: Assembly-CSharp.csproj
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Assembly-CSharp.csproj
+    projectPath: Assembly-CSharp.csproj
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Materials\New Physic Material.physicMaterial
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Assets\Materials\New
+      Physic Material.physicMaterial
+    projectPath: Assets\Materials\New Physic Material.physicMaterial
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Materials\New Physic Material.physicMaterial.meta
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Assets\Materials\New
+      Physic Material.physicMaterial.meta
+    projectPath: Assets\Materials\New Physic Material.physicMaterial.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Scenes\Level1.unity
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Assets\Scenes\Level1.unity
+    projectPath: Assets\Scenes\Level1.unity
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Scripts\MisifuScript.cs
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Assets\Scripts\MisifuScript.cs
+    projectPath: Assets\Scripts\MisifuScript.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Scripts\TrapsLateralMovement.cs
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Assets\Scripts\TrapsLateralMovement.cs
+    projectPath: Assets\Scripts\TrapsLateralMovement.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Scripts\TrapsLateralMovement.cs.meta
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Assets\Scripts\TrapsLateralMovement.cs.meta
+    projectPath: Assets\Scripts\TrapsLateralMovement.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\assetDatabase3
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Library\assetDatabase3
+    projectPath: Library\assetDatabase3
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\EditorInstance.json
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Library\EditorInstance.json
+    projectPath: Library\EditorInstance.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\gfu\cache\gitlocks.yaml
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Library\gfu\cache\gitlocks.yaml
+    projectPath: Library\gfu\cache\gitlocks.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\gfu\cache\gitstatusentries.yaml
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Library\gfu\cache\gitstatusentries.yaml
+    projectPath: Library\gfu\cache\gitstatusentries.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\gfu\cache\gittrackingstatus.yaml
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Library\gfu\cache\gittrackingstatus.yaml
+    projectPath: Library\gfu\cache\gittrackingstatus.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\gfu\cache\repoinfo.yaml
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Library\gfu\cache\repoinfo.yaml
+    projectPath: Library\gfu\cache\repoinfo.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\03\03a0d1997426a814f9c7c89a7d6cd046
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Library\metadata\03\03a0d1997426a814f9c7c89a7d6cd046
+    projectPath: Library\metadata\03\03a0d1997426a814f9c7c89a7d6cd046
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\1e\1eafe599847a9d3428a81ad438b1fb62
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Library\metadata\1e\1eafe599847a9d3428a81ad438b1fb62
+    projectPath: Library\metadata\1e\1eafe599847a9d3428a81ad438b1fb62
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\1e\1eafe599847a9d3428a81ad438b1fb62.info
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Library\metadata\1e\1eafe599847a9d3428a81ad438b1fb62.info
+    projectPath: Library\metadata\1e\1eafe599847a9d3428a81ad438b1fb62.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\af\af9160bf3320c544fbb7337885469bf5
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Library\metadata\af\af9160bf3320c544fbb7337885469bf5
+    projectPath: Library\metadata\af\af9160bf3320c544fbb7337885469bf5
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\af\af9160bf3320c544fbb7337885469bf5.info
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Library\metadata\af\af9160bf3320c544fbb7337885469bf5.info
+    projectPath: Library\metadata\af\af9160bf3320c544fbb7337885469bf5.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Library\ScriptAssemblies\Assembly-CSharp.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ShaderCache\6\622f35ba5ec47e9536b82c95b7c26452.bin
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Library\ShaderCache\6\622f35ba5ec47e9536b82c95b7c26452.bin
+    projectPath: Library\ShaderCache\6\622f35ba5ec47e9536b82c95b7c26452.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\9\936d058a23cf0da025d8e3221318d228.bin
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Library\ShaderCache\9\936d058a23cf0da025d8e3221318d228.bin
+    projectPath: Library\ShaderCache\9\936d058a23cf0da025d8e3221318d228.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Temp\__Backupscenes\0.backup
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Temp\__Backupscenes\0.backup
+    projectPath: Temp\__Backupscenes\0.backup
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Temp\ProcessJobs\e9a6970f79cd12d8b075e7d72f1b07cb.bakert
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Temp\ProcessJobs\e9a6970f79cd12d8b075e7d72f1b07cb.bakert
+    projectPath: Temp\ProcessJobs\e9a6970f79cd12d8b075e7d72f1b07cb.bakert
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Temp\UnityLockfile
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Temp\UnityLockfile
+    projectPath: Temp\UnityLockfile
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Temp\UnityTempFile-003e31363fa622549b90cffe5045a234
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Temp\UnityTempFile-003e31363fa622549b90cffe5045a234
+    projectPath: Temp\UnityTempFile-003e31363fa622549b90cffe5045a234
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-018bcdc91eb8ef24387d7fc12fd01dc6
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Temp\UnityTempFile-018bcdc91eb8ef24387d7fc12fd01dc6
+    projectPath: Temp\UnityTempFile-018bcdc91eb8ef24387d7fc12fd01dc6
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-051944c9288066540897e5f275735026
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Temp\UnityTempFile-051944c9288066540897e5f275735026
+    projectPath: Temp\UnityTempFile-051944c9288066540897e5f275735026
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Temp\UnityTempFile-05fd25258f76b864bbabd324f1f701ee
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Temp\UnityTempFile-05fd25258f76b864bbabd324f1f701ee
+    projectPath: Temp\UnityTempFile-05fd25258f76b864bbabd324f1f701ee
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Temp\UnityTempFile-07c557786beb23242bf9a63d5e536ea1
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Temp\UnityTempFile-07c557786beb23242bf9a63d5e536ea1
+    projectPath: Temp\UnityTempFile-07c557786beb23242bf9a63d5e536ea1
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-09dd078c6d2e8af44bdcfde5e726bf40
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Temp\UnityTempFile-09dd078c6d2e8af44bdcfde5e726bf40
+    projectPath: Temp\UnityTempFile-09dd078c6d2e8af44bdcfde5e726bf40
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Temp\UnityTempFile-0d90e4e2700e2f44f97af9c72d4a529f
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Temp\UnityTempFile-0d90e4e2700e2f44f97af9c72d4a529f
+    projectPath: Temp\UnityTempFile-0d90e4e2700e2f44f97af9c72d4a529f
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-12a798a76c82302498674763f1759574
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Temp\UnityTempFile-12a798a76c82302498674763f1759574
+    projectPath: Temp\UnityTempFile-12a798a76c82302498674763f1759574
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Temp\UnityTempFile-1ad12bfc703848642af84c9fd73e709d
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Temp\UnityTempFile-1ad12bfc703848642af84c9fd73e709d
+    projectPath: Temp\UnityTempFile-1ad12bfc703848642af84c9fd73e709d
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-1ddaf1af557d13d4a8a107551673845a
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Temp\UnityTempFile-1ddaf1af557d13d4a8a107551673845a
+    projectPath: Temp\UnityTempFile-1ddaf1af557d13d4a8a107551673845a
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Temp\UnityTempFile-1f0b015bf4cd23c46923b1f095cca8c8
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Temp\UnityTempFile-1f0b015bf4cd23c46923b1f095cca8c8
+    projectPath: Temp\UnityTempFile-1f0b015bf4cd23c46923b1f095cca8c8
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-21e7821c7cbe92d49ae08a2eb3aa9e87
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Temp\UnityTempFile-21e7821c7cbe92d49ae08a2eb3aa9e87
+    projectPath: Temp\UnityTempFile-21e7821c7cbe92d49ae08a2eb3aa9e87
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-278bc5f6776fe084882a0235a583ef4c
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Temp\UnityTempFile-278bc5f6776fe084882a0235a583ef4c
+    projectPath: Temp\UnityTempFile-278bc5f6776fe084882a0235a583ef4c
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Temp\UnityTempFile-2889921eeceac004f9573c8062ab5aaf
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Temp\UnityTempFile-2889921eeceac004f9573c8062ab5aaf
+    projectPath: Temp\UnityTempFile-2889921eeceac004f9573c8062ab5aaf
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Temp\UnityTempFile-28acd4b88424b7c46a7b5b11eef90b81
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Temp\UnityTempFile-28acd4b88424b7c46a7b5b11eef90b81
+    projectPath: Temp\UnityTempFile-28acd4b88424b7c46a7b5b11eef90b81
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-2fc73c08b66c4244289d9d9bd35fe734
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Temp\UnityTempFile-2fc73c08b66c4244289d9d9bd35fe734
+    projectPath: Temp\UnityTempFile-2fc73c08b66c4244289d9d9bd35fe734
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Temp\UnityTempFile-2fd8780d2c4e7ed4595a28435168c0a9
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Temp\UnityTempFile-2fd8780d2c4e7ed4595a28435168c0a9
+    projectPath: Temp\UnityTempFile-2fd8780d2c4e7ed4595a28435168c0a9
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Temp\UnityTempFile-3260935677f4ba44e8992fadfc6d0d4f
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Temp\UnityTempFile-3260935677f4ba44e8992fadfc6d0d4f
+    projectPath: Temp\UnityTempFile-3260935677f4ba44e8992fadfc6d0d4f
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Temp\UnityTempFile-328db1d7536bb744ea28598c5dd5a388
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Temp\UnityTempFile-328db1d7536bb744ea28598c5dd5a388
+    projectPath: Temp\UnityTempFile-328db1d7536bb744ea28598c5dd5a388
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Temp\UnityTempFile-35f023e54d18f774d83c452094c1e719
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Temp\UnityTempFile-35f023e54d18f774d83c452094c1e719
+    projectPath: Temp\UnityTempFile-35f023e54d18f774d83c452094c1e719
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Temp\UnityTempFile-3b5b88798e44221469052bd46f7f4352
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Temp\UnityTempFile-3b5b88798e44221469052bd46f7f4352
+    projectPath: Temp\UnityTempFile-3b5b88798e44221469052bd46f7f4352
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Temp\UnityTempFile-3c2e9aa7a45fbd344aae28da118c5f32
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Temp\UnityTempFile-3c2e9aa7a45fbd344aae28da118c5f32
+    projectPath: Temp\UnityTempFile-3c2e9aa7a45fbd344aae28da118c5f32
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Temp\UnityTempFile-40f7f0f0f33b4b943a18fa4ecd8e88c5
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Temp\UnityTempFile-40f7f0f0f33b4b943a18fa4ecd8e88c5
+    projectPath: Temp\UnityTempFile-40f7f0f0f33b4b943a18fa4ecd8e88c5
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Temp\UnityTempFile-44ec5aea82dd4fd4a9b4c61fe699ef81
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Temp\UnityTempFile-44ec5aea82dd4fd4a9b4c61fe699ef81
+    projectPath: Temp\UnityTempFile-44ec5aea82dd4fd4a9b4c61fe699ef81
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Temp\UnityTempFile-472dd36a849960941beded7027e506a0
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Temp\UnityTempFile-472dd36a849960941beded7027e506a0
+    projectPath: Temp\UnityTempFile-472dd36a849960941beded7027e506a0
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Temp\UnityTempFile-4af0f50fda108af4c8f966f9c8d9106a
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Temp\UnityTempFile-4af0f50fda108af4c8f966f9c8d9106a
+    projectPath: Temp\UnityTempFile-4af0f50fda108af4c8f966f9c8d9106a
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Temp\UnityTempFile-4da223cf850285d478ab3e2313c8e270
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Temp\UnityTempFile-4da223cf850285d478ab3e2313c8e270
+    projectPath: Temp\UnityTempFile-4da223cf850285d478ab3e2313c8e270
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Temp\UnityTempFile-56631d73d6581cb43863e30bf65439ba
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Temp\UnityTempFile-56631d73d6581cb43863e30bf65439ba
+    projectPath: Temp\UnityTempFile-56631d73d6581cb43863e30bf65439ba
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Temp\UnityTempFile-574157cad8dc7cf4cbaf6893e9368d45
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Temp\UnityTempFile-574157cad8dc7cf4cbaf6893e9368d45
+    projectPath: Temp\UnityTempFile-574157cad8dc7cf4cbaf6893e9368d45
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Temp\UnityTempFile-5c52979eb2820a9489d938ce9dc001b0
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Temp\UnityTempFile-5c52979eb2820a9489d938ce9dc001b0
+    projectPath: Temp\UnityTempFile-5c52979eb2820a9489d938ce9dc001b0
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Temp\UnityTempFile-5f66c1ab689cdf34fb8c9f0396d1612d
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Temp\UnityTempFile-5f66c1ab689cdf34fb8c9f0396d1612d
+    projectPath: Temp\UnityTempFile-5f66c1ab689cdf34fb8c9f0396d1612d
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-5ffa58c97789e5a4297c7e787bae2868
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Temp\UnityTempFile-5ffa58c97789e5a4297c7e787bae2868
+    projectPath: Temp\UnityTempFile-5ffa58c97789e5a4297c7e787bae2868
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-65341943c03d85d4b9b8af245c2e31c5
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Temp\UnityTempFile-65341943c03d85d4b9b8af245c2e31c5
+    projectPath: Temp\UnityTempFile-65341943c03d85d4b9b8af245c2e31c5
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-65ba71952d8655e4eb611f1cb970e6ff
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Temp\UnityTempFile-65ba71952d8655e4eb611f1cb970e6ff
+    projectPath: Temp\UnityTempFile-65ba71952d8655e4eb611f1cb970e6ff
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-6c54f3f46949ebd4d996a4a7bf53f893
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Temp\UnityTempFile-6c54f3f46949ebd4d996a4a7bf53f893
+    projectPath: Temp\UnityTempFile-6c54f3f46949ebd4d996a4a7bf53f893
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Temp\UnityTempFile-7474f34a2d61a1e4fa7296ad685563a8
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Temp\UnityTempFile-7474f34a2d61a1e4fa7296ad685563a8
+    projectPath: Temp\UnityTempFile-7474f34a2d61a1e4fa7296ad685563a8
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Temp\UnityTempFile-7a780a6d9a73bac429d84a9c0ee5ef11
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Temp\UnityTempFile-7a780a6d9a73bac429d84a9c0ee5ef11
+    projectPath: Temp\UnityTempFile-7a780a6d9a73bac429d84a9c0ee5ef11
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-7bff88210b20aa341b8238983dfd331b
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Temp\UnityTempFile-7bff88210b20aa341b8238983dfd331b
+    projectPath: Temp\UnityTempFile-7bff88210b20aa341b8238983dfd331b
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Temp\UnityTempFile-7d9f854d21904bd41bf8b27f57ef2ddb
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Temp\UnityTempFile-7d9f854d21904bd41bf8b27f57ef2ddb
+    projectPath: Temp\UnityTempFile-7d9f854d21904bd41bf8b27f57ef2ddb
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Temp\UnityTempFile-7deb04e391d05314093415feafd5494a
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Temp\UnityTempFile-7deb04e391d05314093415feafd5494a
+    projectPath: Temp\UnityTempFile-7deb04e391d05314093415feafd5494a
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Temp\UnityTempFile-7f1be1056791e514aa4e310078a4b36c
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Temp\UnityTempFile-7f1be1056791e514aa4e310078a4b36c
+    projectPath: Temp\UnityTempFile-7f1be1056791e514aa4e310078a4b36c
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Temp\UnityTempFile-82dd57ec725d3884cb26df7a534fd8ee
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Temp\UnityTempFile-82dd57ec725d3884cb26df7a534fd8ee
+    projectPath: Temp\UnityTempFile-82dd57ec725d3884cb26df7a534fd8ee
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Temp\UnityTempFile-831981b84d3d01e44938b88e07972964
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Temp\UnityTempFile-831981b84d3d01e44938b88e07972964
+    projectPath: Temp\UnityTempFile-831981b84d3d01e44938b88e07972964
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-8c9a7332eef7e1642b53993cfd6f9fee
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Temp\UnityTempFile-8c9a7332eef7e1642b53993cfd6f9fee
+    projectPath: Temp\UnityTempFile-8c9a7332eef7e1642b53993cfd6f9fee
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Temp\UnityTempFile-8d42b526799912249921c3a33f498a65
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Temp\UnityTempFile-8d42b526799912249921c3a33f498a65
+    projectPath: Temp\UnityTempFile-8d42b526799912249921c3a33f498a65
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-8ec129c7fb351cd4cbd8f3c92ad75ece
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Temp\UnityTempFile-8ec129c7fb351cd4cbd8f3c92ad75ece
+    projectPath: Temp\UnityTempFile-8ec129c7fb351cd4cbd8f3c92ad75ece
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Temp\UnityTempFile-96e3fbc35a8f8ed4b85d566f07facffa
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Temp\UnityTempFile-96e3fbc35a8f8ed4b85d566f07facffa
+    projectPath: Temp\UnityTempFile-96e3fbc35a8f8ed4b85d566f07facffa
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Temp\UnityTempFile-a17827c6ed7d01f46a4f4ecea7d8c401
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Temp\UnityTempFile-a17827c6ed7d01f46a4f4ecea7d8c401
+    projectPath: Temp\UnityTempFile-a17827c6ed7d01f46a4f4ecea7d8c401
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Temp\UnityTempFile-aac9f848d514c6044bb7a05367408d07
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Temp\UnityTempFile-aac9f848d514c6044bb7a05367408d07
+    projectPath: Temp\UnityTempFile-aac9f848d514c6044bb7a05367408d07
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-ae90beb2fc5f28946af77f9ddcfbfde7
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Temp\UnityTempFile-ae90beb2fc5f28946af77f9ddcfbfde7
+    projectPath: Temp\UnityTempFile-ae90beb2fc5f28946af77f9ddcfbfde7
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-b624ed46b14eb6748805dbc774be0f99
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Temp\UnityTempFile-b624ed46b14eb6748805dbc774be0f99
+    projectPath: Temp\UnityTempFile-b624ed46b14eb6748805dbc774be0f99
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-ba56326cc33a48b4987b4a5f003ccc6f
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Temp\UnityTempFile-ba56326cc33a48b4987b4a5f003ccc6f
+    projectPath: Temp\UnityTempFile-ba56326cc33a48b4987b4a5f003ccc6f
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-c07656237131d1f4a940b7d353704fc0
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Temp\UnityTempFile-c07656237131d1f4a940b7d353704fc0
+    projectPath: Temp\UnityTempFile-c07656237131d1f4a940b7d353704fc0
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-c22361b62a1f17241b3eda43e0fec47a
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Temp\UnityTempFile-c22361b62a1f17241b3eda43e0fec47a
+    projectPath: Temp\UnityTempFile-c22361b62a1f17241b3eda43e0fec47a
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Temp\UnityTempFile-cb1797bb8002e1741aa7ba89ce34a3ad
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Temp\UnityTempFile-cb1797bb8002e1741aa7ba89ce34a3ad
+    projectPath: Temp\UnityTempFile-cb1797bb8002e1741aa7ba89ce34a3ad
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Temp\UnityTempFile-cbca9493b54bca94cb023599a583392c
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Temp\UnityTempFile-cbca9493b54bca94cb023599a583392c
+    projectPath: Temp\UnityTempFile-cbca9493b54bca94cb023599a583392c
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-cc425691f8a592e44aa1423ba44224c1
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Temp\UnityTempFile-cc425691f8a592e44aa1423ba44224c1
+    projectPath: Temp\UnityTempFile-cc425691f8a592e44aa1423ba44224c1
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-d125fb3cd8bf4c749890cab00978c8b2
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Temp\UnityTempFile-d125fb3cd8bf4c749890cab00978c8b2
+    projectPath: Temp\UnityTempFile-d125fb3cd8bf4c749890cab00978c8b2
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-d6becbc554687c04fb95c186430a50cc
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Temp\UnityTempFile-d6becbc554687c04fb95c186430a50cc
+    projectPath: Temp\UnityTempFile-d6becbc554687c04fb95c186430a50cc
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Temp\UnityTempFile-d89f74f9678c6f24fa4f1500d1e1d5c6
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Temp\UnityTempFile-d89f74f9678c6f24fa4f1500d1e1d5c6
+    projectPath: Temp\UnityTempFile-d89f74f9678c6f24fa4f1500d1e1d5c6
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Temp\UnityTempFile-d8c38d997ab9cb44abba88f07b21959b
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Temp\UnityTempFile-d8c38d997ab9cb44abba88f07b21959b
+    projectPath: Temp\UnityTempFile-d8c38d997ab9cb44abba88f07b21959b
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Temp\UnityTempFile-ebad3f808cd1e244296d3e2ead01018a
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Temp\UnityTempFile-ebad3f808cd1e244296d3e2ead01018a
+    projectPath: Temp\UnityTempFile-ebad3f808cd1e244296d3e2ead01018a
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Temp\UnityTempFile-f40376a9faae3c945a2c30b5afe6813d
+    fullPath: C:\Users\Alejo\Documents\Footprints\Footprints\Temp\UnityTempFile-f40376a9faae3c945a2c30b5afe6813d
+    projectPath: Temp\UnityTempFile-f40376a9faae3c945a2c30b5afe6813d
+    originalPath: 
+    status: 5
+    staged: 0
