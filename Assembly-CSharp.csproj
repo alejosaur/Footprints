@@ -55,6 +55,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\CloudsMove.cs" />
      <Compile Include="Assets\Scripts\ControlButtons.cs" />
+     <Compile Include="Assets\Scripts\InfinitePendulum.cs" />
      <Compile Include="Assets\Scripts\MisifuScript.cs" />
      <Compile Include="Assets\Scripts\MoveCam.cs" />
      <Compile Include="Assets\Scripts\Orientation.cs" />
