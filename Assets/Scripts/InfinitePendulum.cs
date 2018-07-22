@@ -26,7 +26,6 @@ public class InfinitePendulum : MonoBehaviour {
         }
         if (!bajando && transform.position.y <y)
         {
-			Debug.Log(transform.rotation);
             bajando = true;
         }
         y = transform.position.y;

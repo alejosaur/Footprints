@@ -60,6 +60,8 @@
      <Compile Include="Assets\Scripts\MoveCam.cs" />
      <Compile Include="Assets\Scripts\Orientation.cs" />
      <Compile Include="Assets\Scripts\SceneManage.cs" />
+     <Compile Include="Assets\Scripts\Shoot.cs" />
+     <Compile Include="Assets\Scripts\TrapsLateralMovement.cs" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>C:/Users/Alejo/Documents/Footprints/Footprints/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
