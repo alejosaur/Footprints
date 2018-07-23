@@ -9,6 +9,6 @@
  
      void Update()
      {
-        transform.position =new Vector3(target.position.x+3, 2.79f, -10);
+        transform.position =new Vector3(target.position.x+3, 0.56f, -7.26f);
      }
  }
