@@ -1,15 +1,25 @@
 fileFormatVersion: 2
 guid: a65f9045647b7fb469e03c9df594a561
 ModelImporter:
-  serializedVersion: 22
+  serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: 02 - Default
+    2100000: 'Material #51'
     2300000: //RootNode
     3300000: //RootNode
-    4300000: plataforma 1
-  externalObjects: {}
+    4300000: plataforma 2
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #51'
+    second: {fileID: 2100000, guid: 31ae32fe35270924ea5e2fae28610685, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: pexels-photo-935875
+    second: {fileID: 2800000, guid: 150afdf285d02b545914a4522eefcc7e, type: 3}
   materials:
     importMaterials: 1
     materialName: 0
@@ -60,6 +70,8 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0

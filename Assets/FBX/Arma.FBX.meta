@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 673fb373c6441d24db26e30f4ac1a5d0
 ModelImporter:
-  serializedVersion: 22
+  serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
     100002: Box005
@@ -21,7 +21,12 @@ ModelImporter:
     4300000: Cylinder002
     4300002: Sphere001
     4300004: Box005
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 4afcbd4c0968dbe468aa07746c46e4b5, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -72,6 +77,8 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0

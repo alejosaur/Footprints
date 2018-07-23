@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: d496004dc8e9c9e4d9ca8a78e7f77752
 ModelImporter:
-  serializedVersion: 22
+  serializedVersion: 23
   fileIDToRecycleName:
     100000: Box001
     100002: cuerda
@@ -22,7 +22,17 @@ ModelImporter:
     4300000: Box001
     4300002: cuerda
     4300004: tronco
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 02 - Default
+    second: {fileID: 2100000, guid: b8fb86c651b6f76449a3cbe214c64643, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 7291f2649125ad740af46c38e598b7f6, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -73,6 +83,8 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
