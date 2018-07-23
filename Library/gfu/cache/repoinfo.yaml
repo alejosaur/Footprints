@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2018-07-22T22:48:20.383-05:00
-  initializedAtString: 2018-07-22T22:48:20.383-05:00
+  lastUpdatedAtString: 2018-07-23T15:04:54.735-05:00
+  initializedAtString: 2018-07-23T15:04:54.735-05:00
   currentGitRemote:
     name: origin
     url: https://github.com/alejosaur/Footprints.git
@@ -34,4 +34,4 @@ MonoBehaviour:
   currentConfigRemote:
     name: origin
     url: https://github.com/alejosaur/Footprints.git
-  currentHead: a59bef2
+  currentHead: 690c2a3
