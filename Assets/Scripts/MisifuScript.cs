@@ -11,13 +11,11 @@ public class MisifuScript : MonoBehaviour {
     private bool collided;
     private int count;
     public Text PuntajeText;
-    private bool start;
 
 	// Use this for initialization
 	void Start () {
 		rb = GetComponent<Rigidbody>();
         count = 0;
-        start=false;
 	}
 	
 	// Update is called once per frame

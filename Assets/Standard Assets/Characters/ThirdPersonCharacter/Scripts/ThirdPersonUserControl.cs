@@ -12,6 +12,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
         private Vector3 m_CamForward;             // The current forward direction of the camera
         private Vector3 m_Move;
         private bool m_Jump;                      // the world-relative desired move direction, calculated from the camForward and user input.
+        private bool m_trampolinJump;
         private bool m_crouch;
         public Text StartText;
         
@@ -76,6 +77,13 @@ namespace UnityStandardAssets.Characters.ThirdPerson
             }
         }
 
+        public void OnCollisionEnter(Collision other){
+            if (other.collider.CompareTag ("Bounce"))
+            {
+                m_trampolinJump = true;
+            }
+        }
+
         // Fixed update is called in sync with physics
         private void FixedUpdate()
         {
@@ -99,8 +107,9 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 #endif
 
             // pass all parameters to the character control script
-            m_Character.Move(m_Move, m_crouch, m_Jump);
+            m_Character.Move(m_Move, m_crouch, m_Jump, m_trampolinJump);
             m_Jump = false;
+            m_trampolinJump = false;
         }
     }
 }

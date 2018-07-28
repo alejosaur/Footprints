@@ -6,6 +6,10 @@ public class Shoot : MonoBehaviour {
 
 	public Rigidbody bullet;
 	public Vector3 direction;
+	public string bulletName;
+	public float time;
+	public int simultaneas;	
+	private int count=0;
 
 	// Use this for initialization
 	 void Start()
@@ -17,7 +21,7 @@ public class Shoot : MonoBehaviour {
 	{
 		while (true)
 		{
-			yield return new WaitForSeconds(2f);
+			yield return new WaitForSeconds(time);
 			DoSomething();
 		}
 	}
@@ -25,8 +29,13 @@ public class Shoot : MonoBehaviour {
 	// happens every 0.5 seconds
 	void DoSomething()
 	{
-		Rigidbody cube = Instantiate(bullet, transform.position, transform.rotation) as Rigidbody;
-    	cube.velocity = transform.TransformDirection(direction);
+		Rigidbody bala = Instantiate(bullet, transform.position, transform.rotation) as Rigidbody;
+    	bala.velocity = transform.TransformDirection(direction);            
+		bala.name = bulletName + count;
+		count++;
+
+		GameObject delBullet = GameObject.Find(bulletName+(count-simultaneas));
+		Destroy(delBullet);
 	}
 
 	void shoot(){
