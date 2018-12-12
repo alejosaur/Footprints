@@ -50,7 +50,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
         {
             if(pause==1)
             {
-                m_Jump = true && (h==1);
+                m_Jump = true;
             }
         }
 
@@ -58,7 +58,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
         {
             if(pause==1)
             {
-                m_crouch = act && (h==1);
+                m_crouch = act;
             }
         }
 
@@ -71,8 +71,37 @@ namespace UnityStandardAssets.Characters.ThirdPerson
                     if(Input.GetMouseButtonDown(0))
                     {
                         Destroy(StartText.gameObject);
-                        h=1;
                     }
+                }
+            }
+        }
+
+        public void left(bool act)
+        {
+            if(pause == 1)
+            {
+                if(act)
+                {
+                    h = -1;
+                }
+                else
+                {
+                    h = 0;
+                }
+            }
+        }
+
+        public void right(bool act)
+        {
+            if(pause == 1)
+            {
+                if(act)
+                {
+                    h = 1;
+                }
+                else
+                {
+                    h = 0;
                 }
             }
         }

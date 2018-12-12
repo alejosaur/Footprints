@@ -24,6 +24,16 @@ public class ControlButtons : MonoBehaviour {
 		misifu.GetComponent<ThirdPersonUserControl>().jump();
 	}
 
+	public void left(bool act)
+	{
+		misifu.GetComponent<ThirdPersonUserControl>().left(act);
+	}
+	
+	public void right(bool act)
+	{
+		misifu.GetComponent<ThirdPersonUserControl>().right(act);
+	}
+
 	public void crouch(bool act)
 	{
 		misifu.GetComponent<ThirdPersonUserControl>().crouch(act);
